@@ -5,9 +5,9 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.ensemble import GradientBoostingRegressor
 import pandas as pd
 
-train_data = pd.read_csv('dataset/train.csv')
+train_data = pd.read_csv('dataset/boston_housing_prices/train.csv')
 
-test_data = pd.read_csv('dataset/test.csv')
+test_data = pd.read_csv('dataset/boston_housing_prices/test.csv')
 
 train_data.head()
 
